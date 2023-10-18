@@ -28,3 +28,14 @@ In this C++ program, we perform a detailed analysis of two phone numbers, one as
 Employee Data Analysis and Quick Search PROGRAM
 
 This C++ program focuses on the analysis of employee data, examining key attributes like gender, employee number, and weekly salary. It starts by reading employee data from a file, and then employs a quicksort algorithm to efficiently sort the employees based on their unique employee numbers. Once the data is sorted, the program performs a binary search to find specific employees by their employee numbers. The result is a structured and sorted view of employee data, which allows for quick and precise searches. The program efficiently combines data analysis with advanced search techniques, offering a useful tool for managing employee records.
+
+
+Circle Operations and Sorting with Quick Sort PROGRAM
+
+This C++ program revolves around circle operations and sorting using the quicksort algorithm. It defines a class named Cercle, which represents circles and provides functionalities to compute their perimeter, surface area, and manipulate their radii. The program begins with a preliminary display of circle data, including their radii, perimeters, and surface areas. It then performs two permutations on the circle objects and displays the updated circle data.
+The program proceeds with finding the circles with the largest and smallest radii. Using quicksort, it sorts the circles based on their radii and presents the circles in sorted order. This program demonstrates the manipulation and sorting of circle objects while showcasing the functionality of the Cercle class.
+
+
+Employee Management and Analysis Program PROGRAM
+
+This C++ program is designed to efficiently manage and analyze employee data imported from a text file. It employs a custom-defined Employe class to represent employee information and offers a comprehensive set of features, including reading and populating data from a file, modifying employee details, and performing data analysis. Key functionalities include sorting the employee list, searching and updating individual employee records, and summarizing gender distribution, as well as calculating the average weekly salary for male employees and identifying the female employee with the highest salary. The program exemplifies object-oriented programming principles and data manipulation within the context of employee data management, making it a practical tool for personnel management and analysis.
