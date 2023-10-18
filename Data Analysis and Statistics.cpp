@@ -1,27 +1,3 @@
-/*
- 
- Fichier : TP1 - B
- Auteur : Daniel Kessler
- Cours IFT 1166
- 
- But du programme :
- 
- 1. Afficher les 3 tableaux (age, taille et poids).
- 2. Compter par un patron de fonction et afficher :
-    a. Le nombre de personnes adultes ayant 18 ans ou plus.
-    b. Le nombre de personnes ayant une taille superieure ou egale a 1.73 metres.
-    c. Le nombre de personnes dont le poids est superieur ou egal a 70 kg.
- 3. Donner une fonction dont deux des parametres sont transmis par pointeurs et calculer :
-    a. L'age minimal et maximal
-    b. La taille minimale et maximale
-    c. Le poids minimal et maximal
- 4. Donner une fonction done un des parametres est transmis par reference et calculer :
-    a. age moyen (reel)
-    b. taille moyenne
-    c. poids moyen
- 
- */
-
 #include <iostream>
 using namespace std;
 
