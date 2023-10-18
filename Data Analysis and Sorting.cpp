@@ -1,16 +1,3 @@
-/*
- 
- Fichier : TP1 - A
- Auteur : Daniel Kessler
- Cours IFT 1166
- 
- But du programme :
- 1. Afficher le contenu des deux tableaux (poids et taille).
- 2. Donner une fonction pour compter et afficher le nombre de personnes ayant un poids ou une taille superieure ou egale a une borne specifique.
- 3. Donner une fonction pour calculer le poids minimal et la taille minimale.
- 
- */
-
 #include <iostream>
 using namespace std;
 
