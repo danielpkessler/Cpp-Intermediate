@@ -1,27 +1,3 @@
-/*
- 
- Fichier : TP2 - A
- Auteur : Daniel Kessler
- Cours : IFT 1166
- Derniere modification : 14 juin 2023
- 
- But du programme :
- 
- 1. Extraire et afficher des sous-chaines de telUdeM et telJean.
- 2. Compter et afficher :
- a) Combien de fois apparait le numero 3 dans telUdeM
- b) Combien de fois apparait le numero 1 dans telUdeM
- c) Combien de fois apparait le numero 4 dans telJean
- 3. Avec une fonction bool, montrer que tous les chiffres de telUdeM sont aussi presents dans telJean.
- 4. Afficher les chiffres de telJean qui ne sont pas presents dans telUdeM.
- 5. Trouver et afficher les chiffres impairs de telJean.
- 6. Trouver et afficher les chiffres pairs de telUdeM.
- 7. Determiner et afficher :
- a) Le chiffre plus petit de telUdeM
- b) Le chiffre plus petit de telJean
- 
- */
-
 #include <iostream>
 #include <string>
 using namespace std;
@@ -154,37 +130,3 @@ int main(int argc, const char * argv[]) {
     
     return 0;
 }
-
-/*
- 
- EXECUTION :
- 
- 
- 1. AFFICHAGE DES DEUX TELEPHONES AVEC UN FORMAT SPECIFIQUE :
- a) Le telephone de l'Universite de Montreal : (514) 343-6111
- b) Le telephone de Jean : (450) 123-7654
- 
- 2. AFFICHAGE DE COMBIEN DE FOIS APPARAISSENT DES CHIFFRES VOULUS DANS UN NUMERO :
- a) Le chiffre 3 apparait 2 fois dans le telephone de l'UdeM.
- b) Le chiffre 1 apparait 4 fois dans le telephone de l'UdeM.
- c) Le chiffre 4 apparait 2 fois dans le telephone de Jean.
- 
- 3. PROUVER SI LES CHIFFRES DU TELEPHONE DE L'UDEM SONT PRESENTS DANS CELUI DE JEAN :
- Tous les chiffres dans le telphone de l'UdeM sont presents dans le telephone de Jean : VRAI
- 
- 4. AFFICHAGE DES CHIFFRES DU NUMERO DE JEAN QUI NE SONT PAS PRESENTS DANS CELUI DE L'UDEM :
- Les chiffres dans telJean qui ne sont pas presents dans telUdeM sont : 0 2 7
- 
- 5. NUMEROS IMPAIRS DU NUMERO DE TELEPHONE DE JEAN :
- Les chiffres impairs dans telJean sont : 1 3 5 7
- 
- 6. NUMEROS PAIRS DU NUMERO DE TELEPHONE DE L'UDEM :
- Les chiffres pairs dans telUdeM sont : 4 6
- 
- 7. DETERMINER LES PLUS PETITS CHIFFRES DANS CHAQUE NUMERO :
- a) Le plus petit chiffre du numero de telephone de l'UdeM est 1.
- b) Le plus petit chiffre du numero de telephone de Jean est 0.
- 
- Program ended with exit code: 0
- 
- */
