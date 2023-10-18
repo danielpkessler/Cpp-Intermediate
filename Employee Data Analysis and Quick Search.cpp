@@ -1,23 +1,3 @@
-/*
- 
- Fichier : TP2 - C
- Auteur : Daniel Kessler
- Cours : IFT 1166
- Date de derniere modification : 14 juin 2023
- 
- But du programme :
- 1. Afficher les personnes lues avec des fonctions appropriees.
- 2. Determiner et afficher l'information de la personne ayant la plus grande taille.
- 3. Determiner et afficher l'information de :
- a) La femme ayant le poids le plus leger
- b) L'homme ayant la plus petite taille
- 4. Calculer + Afficher :
- a) Le poids moyen des femmes
- b) La taille moyenne des hommes
- 5. Faire un tri rapide des personnes selon leurs numeros et afficher le contenu du tableau pers en suite.
- 
- */
-
 #include <iostream>
 #include <iomanip>
 #include <string>
