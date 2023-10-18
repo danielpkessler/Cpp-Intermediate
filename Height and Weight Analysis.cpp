@@ -1,22 +1,3 @@
-/*
-
- Fichier TP1 - C
- Auteur : Daniel Kessler
- Cours : IFT 1166
- 
- Objectif du Programme :
- 
- 1. Donner une fonction pour compter et afficher le nombre de femmes et d'hommes, les deux resultats doivent etre transmis par reference.
- 2. Donner un patron de fonction pour compter et afficher le nombre de personnes dont :
- a. l'age depasse 29 ans
- b. la consommation est superieure a 2 tasses de cafe par jour
- c. la taille depasse 1.80 metre
- 3. Determiner et afficher le maximum pour l'age, la consommation de cafe et la taille avec un patron de fonction.
- 4. Donner une fonction pour trier les quatre tableaux en fonction des tailles et es reafficher a la suite.
-   
-*/
-                          
-
 #include <iostream>
 #include <iomanip>
 using namespace std;
@@ -164,49 +145,3 @@ afficher(age, nbCafe, sexe, taille, nbPers, "à la suite du tri");
   return 0;
     
 }
-
-
-/*
- 
- EXECUTION :
- 
- 
- Contenu des 4 tableaux  au debut :
-
- indice      age     cafe   sexe   taille
-   0)         25       3     F      1.72
-   1)         19       4     M      1.84
-   2)         41       0     F      1.65
-   3)         37       6     F      1.57
-   4)         20       3     M      1.93
-   5)         37       2     F      1.85
-
- Age moyen :  29.83 an(s)
- Consommation moyenne de cafe :   3.00 tasse(s) par jour
- Taille moyenne : 1.76 metre
-
- Le nombre d'hommes est de     : 2
- Le nombre de femmes est de    : 4
-
- Le nombre de personnes dont l’âge est supérieur à 29 ans                 : 3
- Le nombre de personnes qui consomment plus de 2 tasses de café par jour  : 4
- Le nombre de personnes dont la taille est supérieure à 1.80 mètre        : 3
-
- L'age maximal est de                                    : 41
- La consommation maximale de tasses café par jour est de : 6
- La plus grande taille est de                            : 1.93
-
-
- Contenu des 4 tableaux à la suite du tri :
-
- indice      age     cafe   sexe   taille
-   0)         37       6     F      1.57
-   1)         41       0     F      1.65
-   2)         25       3     F      1.72
-   3)         19       4     M      1.84
-   4)         37       2     F      1.85
-   5)         20       3     M      1.93
-
- Program ended with exit code: 0
- 
- */
