@@ -1,25 +1,3 @@
-/*
- 
- Fichier : TP3 - A
- Auteur : Daniel Kessler
- Cours : IFT 1166
- Derniere modification : 29 juin 2023
- 
- But du programme :
- 
- 1. Afficher le tableau des cercles en utilisant la surcharge de
- l'operateur d'affichage <<
- 2. Permuter c[0] et c[4] et ensuite permuter c[1] et c[3].
- 3. Determiner et ensuite afficher :
- a) Le cercle avec le plus petit rayon
- b) Le cercle avec le plus grand rayon
- Il faut utiliser une seule fonction template ainsi que la surcharge
- des operateurs > et <.
- 4. Trier le tableau des cercles avec le tri rapide et donc
- reafficher le tableau trie.
- 
- */
-
 #include <iostream>
 #include <iomanip>
 using namespace std;
