@@ -65,36 +65,3 @@ int main(int argc, const char * argv[]) {
     
     return 0;
 }
-
-/*
- 
- EXECUTION :
- 
- 1. Affichage du contenu des deux tableaux
-
- Taille |  Poids
- ------------------
- 1.72   |  65.3
- 1.65   |  67.1
- 1.58   |  74.8
- 1.91   |  77.7
- 1.69   |  72.3
- 1.54   |  56.4
- 1.83   |  74.9
- 1.71   |  72.1
-
-
- 2. Nombre de personnes dont :
-
- a. La taille est superieure ou egale a 1.73 metre(s) : 2
- b. Le poids est superieur ou egal a 70 kg : 5
-
-
- 3. Affichage de :
-
- a. La taille minimale : 1.54 metre(s)
- b. Le poids minimal : 56.4 kg
-
- Program ended with exit code: 0
- 
- */
